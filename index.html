@@ -33,8 +33,8 @@
                width: auto;
                padding-left: 20px ;
                margin: 15px 15px 15px 15px;
-               box-shadow: 5px 5px 5px red;
-              animation: animatey 2s linear 1s 4  
+               box-shadow: 5px 5px 10px red;
+               animation: animatey 2s alternate-reverse 2s 1   
               
                
                
@@ -48,6 +48,7 @@
                padding-left: 20px ;
                margin: 15px 15px 15px 15px;
                box-shadow: 5px 5px 5px red;
+               animation: animatey 2s alternate-reverse 2s 1  
         }
         .education{
             background-color: lightcoral;
@@ -58,6 +59,7 @@
                padding-left: 20px ;
                margin: 15px 15px 15px 15px;
                box-shadow: 5px 5px 5px red;
+               animation: animatey 2s alternate-reverse 2s 1  
         }
         .training{
             background-color: lightcoral;
@@ -68,6 +70,7 @@
                padding-left: 20px ;
                margin: 15px 15px 15px 15px;
                box-shadow: 5px 5px 5px red;
+               animation: animatey 2s alternate-reverse 2s 1  
         }
         .skills{
             background-color: lightcoral;
@@ -78,6 +81,7 @@
                padding-left: 20px ;
                margin: 15px 15px 15px 15px;
                box-shadow: 5px 5px 5px red;
+               animation: animatey 2s alternate-reverse 2s 1  
         }
         .extra{
             background-color: lightcoral;
@@ -88,6 +92,7 @@
                padding-left: 20px ;
                margin: 15px 15px 15px 15px;
                box-shadow: 5px 5px 5px red;
+               animation: animatey 2s alternate-reverse 2s 1  
         }
         .ITS{
             background-color: lightcoral;
@@ -98,6 +103,7 @@
                padding-left: 20px ;
                margin: 15px 15px 15px 15px;
                box-shadow: 5px 5px 5px red;
+               animation: animatey 2s alternate-reverse 2s 1  
         }
         .Projects{
             background-color: lightcoral;
@@ -108,6 +114,7 @@
                padding-left: 20px ;
                margin: 15px 15px 15px 15px;
                box-shadow: 5px 5px 5px red;
+               animation: animatey 2s alternate-reverse 2s 1  
         }
         .hobbies{
             background-color: lightcoral;
@@ -118,6 +125,7 @@
                padding-left: 20px ;
                margin: 15px 15px 15px 15px;
                box-shadow: 5px 5px 5px red;
+               animation: animatey 2s alternate-reverse 2s 1  
         }
         .FAQ{
             background-color: lightcoral;
@@ -128,6 +136,7 @@
                padding-left: 20px ;
                margin: 15px 15px 15px 15px;
                box-shadow: 5px 5px 5px red;
+               animation: animatey 2s alternate-reverse 2s 1  
         }
         .footer{
             background-color: lightcoral;
@@ -139,18 +148,22 @@
                margin: 15px 15px 15px 15px;
                text-align: center;
                box-shadow: 5px 5px 5px red;
+               animation: animatey 2s alternate-reverse 2s 1  
         }
 
         
         
         @keyframes animatey{
             from {
+                /* right to left translate */
+                
                 color: black;
              }
             to{
                color: blue;
                background-color: lightskyblue;
-               transform: translate(50px);
+               transform: translateX(100%);
+              
                 
             }
         }
@@ -186,6 +199,12 @@
               .hobbies{
                 background-color: limegreen;    
               } 
+              .list ul{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+              }
         }
 
         .bar{
@@ -353,7 +372,7 @@
 
         <!-- section for project -->
         <section class="Projects">
-            <h1 id="Projects">PROJECTS</h1>
+            <h1 id="PROJECTS">PROJECTS</h1>
             <ul>
                 <!-- first project -->
                 <li>
